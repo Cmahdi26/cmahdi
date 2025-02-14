@@ -4,6 +4,14 @@ try {
 } catch (e) {
   // ignore error
 }
+/** @type {import('next').NextConfig} */
+const nextConfig = {
+  output: 'export',
+  basePath: '/cmahdi',
+  assetPrefix: '/cmahdi/',
+};
+
+export default nextConfig;
 
 /** @type {import('next').NextConfig} */
 const nextConfig = {
